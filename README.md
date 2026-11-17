@@ -64,3 +64,27 @@ The estimate form (`#lead`) posts to [FormSubmit](https://formsubmit.co), which 
 ## Deployment
 
 Any static host works (GitHub Pages, Netlify, Cloudflare Pages). Note that free GitHub Pages requires a **public** repository; Netlify and Cloudflare Pages can deploy from a private one.
+
+## Putting the site online (for Ernie)
+
+Easiest way: buy the domain AND the hosting from the same company (GoDaddy, Namecheap, Hostinger, etc.). Then they connect them for you.
+
+1. Buy your domain (example: erniesfloorcovering.com).
+2. Tell me the exact domain you bought. I'll update the site for it and send you the files.
+3. Log in to your hosting company and open the **File Manager**.
+4. Open the folder called **public_html** (sometimes **www** or **htdocs**).
+5. Upload everything I sent you: **index.html**, **robots.txt**, **sitemap.xml**, and the **images** folder.
+   - index.html must sit right inside public_html, not inside another folder.
+6. Type your domain into a browser. You should see the site.
+
+If the domain and hosting are from different companies: your hosting company will give you two "nameservers" (they look like ns1.something.com). Log in where you bought the domain, find **Nameservers**, and paste those in. It can take up to a day to start working.
+
+Stuck? Call your hosting company's support and say: "I want my domain to show the website I uploaded to public_html." They do this all day.
+
+## Testing the form (once the site is live)
+
+1. Go to your site and fill out "Get a Free Estimate" with your own name and phone. Press the button.
+2. Check your email (and the **spam** folder) for a message from **FormSubmit**. Click **Activate Form**. This is a one-time step.
+3. Fill out the form one more time.
+4. You should see "Got it, thanks!" on the site, and get an email titled **"New flooring lead from website"**.
+5. If no email shows up within 10 minutes, let me know.
